@@ -1,4 +1,4 @@
-https://nightly.odoo.com/11.0/nightly/src/odoo_11.0.latest.zip
+https://nightly.odoo.com/10.0/nightly/src/odoo_10.0.latest.zip
 # OCA/server-ux
 -e git+https://github.com/OCA/server-ux.git@11.0#egg=odoo11_addon_date_range&subdirectory=setup/date_range
 -e git+https://github.com/OCA/server-ux.git@11.0#egg=odoo11_addon_base_technical_features&subdirectory=setup/base_technical_features
