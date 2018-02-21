@@ -19,7 +19,7 @@ https://nightly.odoo.com/10.0/nightly/src/odoo_10.0.latest.zip
 
 # OCA/stock-logistics-warehouse
 -e git+https://github.com/OCA/stock-logistics-warehouse.git@10.0#egg=odoo10_addon_stock_putaway_product&subdirectory=setup/stock_putaway_product
--e git+https://github.com/OCA/stock-logistics-warehouse.git@10.0-add-stock_orderpoint_manual_procurement_uom#egg=odoo10_addon_stock_orderpoint_manual_procurement_uom&subdirectory=setup/stock_orderpoint_manual_procurement_uom
+-e git+https://github.com/OCA/stock-logistics-warehouse.git@10.0#egg=odoo10_addon_stock_orderpoint_manual_procurement_uom&subdirectory=setup/stock_orderpoint_manual_procurement_uom
 -e git+https://github.com/OCA/stock-logistics-warehouse.git@10.0#egg=odoo10_addon_stock_warehouse_orderpoint_stock_info&subdirectory=setup/stock_warehouse_orderpoint_stock_info
 -e git+https://github.com/OCA/stock-logistics-warehouse.git@10.0#egg=odoo10_addon_stock_warehouse_orderpoint_stock_info_unreserved&subdirectory=setup/stock_warehouse_orderpoint_stock_info_unreserved
 -e git+https://github.com/OCA/stock-logistics-warehouse.git@10.0#egg=odoo10_addon_stock_demand_estimate&subdirectory=setup/stock_demand_estimate
