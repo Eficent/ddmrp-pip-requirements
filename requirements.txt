@@ -1,6 +1,32 @@
 https://nightly.odoo.com/10.0/nightly/src/odoo_10.0.latest.zip
-# OCA/server-ux
--e git+https://github.com/OCA/server-ux.git@11.0#egg=odoo11_addon_date_range&subdirectory=setup/date_range
--e git+https://github.com/OCA/server-ux.git@11.0#egg=odoo11_addon_base_technical_features&subdirectory=setup/base_technical_features
+
+# OCA/web
+-e git+https://github.com/OCA/web.git@10.0#egg=odoo10_addon_web_tree_many2one_clickable&subdirectory=setup/web_tree_many2one_clickable
+-e git+https://github.com/OCA/web.git@10.0#egg=odoo10_addon_web_widget_x2many_2d_matrix&subdirectory=setup/web_widget_x2many_2d_matrix
+-e git+https://github.com/OCA/web.git@10.0#egg=odoo10_addon_web_widget_bokeh_chart&subdirectory=setup/web_widget_bokeh_chart
+-e git+https://github.com/OCA/web.git@10.0#egg=odoo10_addon_web_tree_dynamic_colored_field&subdirectory=setup/web_tree_dynamic_colored_field
+
+# OCA/manufacture
+-e git+https://github.com/OCA/manufacture.git@10.0#egg=odoo10_addon_mrp_mto_with_stock&subdirectory=setup/mrp_mto_with_stock
+-e git+https://github.com/OCA/manufacture.git@10.0-mig-mrp_bom_location#egg=odoo10_addon_mrp_bom_location&subdirectory=setup/mrp_bom_location
+
+# OCA/manufacture-reporting
+-e git+https://github.com/OCA/manufacture-reporting.git@10.0-mig-report_mrp_bom_matrix#egg=odoo10_addon_report_mrp_bom_matrix&subdirectory=setup/report_mrp_bom_matrix
+-e git+https://github.com/OCA/manufacture-reporting.git@10.0-mig-mrp_bom_current_stock#egg=odoo10_addon_mrp_bom_current_stock&subdirectory=setup/mrp_bom_current_stock
+
 # OCA/server-tools
--e git+https://github.com/OCA/server-tools.git@11.0#egg=odoo11_addon_auditlog&subdirectory=setup/auditlog
+-e git+https://github.com/OCA/server-tools.git@10.0#egg=odoo10_addon_base_cron_exclusion&subdirectory=setup/base_cron_exclusion
+
+# OCA/stock-logistics-warehouse
+-e git+https://github.com/OCA/stock-logistics-warehouse.git@10.0#egg=odoo10_addon_stock_putaway_product&subdirectory=setup/stock_putaway_product
+-e git+https://github.com/OCA/stock-logistics-warehouse.git@10.0-add-stock_orderpoint_manual_procurement_uom#egg=odoo10_addon_stock_orderpoint_manual_procurement_uom&subdirectory=setup/stock_orderpoint_manual_procurement_uom
+-e git+https://github.com/OCA/stock-logistics-warehouse.git@10.0#egg=odoo10_addon_stock_warehouse_orderpoint_stock_info&subdirectory=setup/stock_warehouse_orderpoint_stock_info
+-e git+https://github.com/OCA/stock-logistics-warehouse.git@10.0#egg=odoo10_addon_stock_warehouse_orderpoint_stock_info_unreserved&subdirectory=setup/stock_warehouse_orderpoint_stock_info_unreserved
+-e git+https://github.com/OCA/stock-logistics-warehouse.git@10.0#egg=odoo10_addon_stock_demand_estimate&subdirectory=setup/stock_demand_estimate
+-e git+https://github.com/OCA/stock-logistics-warehouse.git@10.0#egg=odoo10_addon_stock_available_unreserved&subdirectory=setup/stock_available_unreserved
+
+# Eficent/ddmrp
+-e git+https://github.com/Eficent/ddmrp.git@10.0#egg=odoo10_addon_ddmrp&subdirectory=setup/ddmrp
+-e git+https://github.com/Eficent/ddmrp.git@10.0#egg=odoo10_addon_ddmrp_history&subdirectory=setup/ddmrp_history
+-e git+https://github.com/Eficent/ddmrp.git@10.0-mig-ddmrp_adjustment#egg=odoo10_addon_ddmrp_adjustment&subdirectory=setup/ddmrp_adjustment
+-e git+https://github.com/Eficent/ddmrp.git@10.0-mig-ddmrp_product_replace#egg=odoo10_addon_ddmrp_product_replace&subdirectory=setup/ddmrp_product_replace
