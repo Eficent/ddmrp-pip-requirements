@@ -8,11 +8,11 @@ https://nightly.odoo.com/10.0/nightly/src/odoo_10.0.latest.zip
 
 # OCA/manufacture
 -e git+https://github.com/OCA/manufacture.git@10.0#egg=odoo10_addon_mrp_mto_with_stock&subdirectory=setup/mrp_mto_with_stock
--e git+https://github.com/OCA/manufacture.git@10.0-mig-mrp_bom_location#egg=odoo10_addon_mrp_bom_location&subdirectory=setup/mrp_bom_location
+-e git+https://github.com/Eficent/manufacture.git@10.0-mig-mrp_bom_location#egg=odoo10_addon_mrp_bom_location&subdirectory=setup/mrp_bom_location
 
 # OCA/manufacture-reporting
--e git+https://github.com/OCA/manufacture-reporting.git@10.0-mig-report_mrp_bom_matrix#egg=odoo10_addon_report_mrp_bom_matrix&subdirectory=setup/report_mrp_bom_matrix
-# -e git+https://github.com/OCA/manufacture-reporting.git@10.0-mig-mrp_bom_current_stock#egg=odoo10_addon_mrp_bom_current_stock&subdirectory=setup/mrp_bom_current_stock
+-e git+https://github.com/Eficent/manufacture-reporting.git@10.0-mig-report_mrp_bom_matrix#egg=odoo10_addon_report_mrp_bom_matrix&subdirectory=setup/report_mrp_bom_matrix
+# -e git+https://github.com/Eficent/manufacture-reporting.git@10.0-mig-mrp_bom_current_stock#egg=odoo10_addon_mrp_bom_current_stock&subdirectory=setup/mrp_bom_current_stock
 
 # OCA/server-tools
 -e git+https://github.com/OCA/server-tools.git@10.0#egg=odoo10_addon_base_cron_exclusion&subdirectory=setup/base_cron_exclusion
