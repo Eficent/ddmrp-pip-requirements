@@ -26,7 +26,7 @@ https://nightly.odoo.com/10.0/nightly/src/odoo_10.0.latest.zip
 -e git+https://github.com/OCA/stock-logistics-warehouse.git@10.0#egg=odoo10_addon_stock_available_unreserved&subdirectory=setup/stock_available_unreserved
 
 # Eficent/ddmrp
--e git+https://github.com/Eficent/ddmrp.git@10.0#egg=odoo10_addon_ddmrp&subdirectory=setup/ddmrp
+-e git+https://github.com/Eficent/ddmrp.git@10.0-mig-ddmrp#egg=odoo10_addon_ddmrp&subdirectory=setup/ddmrp
 -e git+https://github.com/Eficent/ddmrp.git@10.0#egg=odoo10_addon_ddmrp_history&subdirectory=setup/ddmrp_history
 -e git+https://github.com/Eficent/ddmrp.git@10.0#egg=odoo10_addon_ddmrp_adjustment&subdirectory=setup/ddmrp_adjustment
 -e git+https://github.com/Eficent/ddmrp.git@10.0-mig-ddmrp_product_replace#egg=odoo10_addon_ddmrp_product_replace&subdirectory=setup/ddmrp_product_replace
