@@ -54,3 +54,10 @@ docs/_build/
 # Backup files
 *~
 *.swp
+
+# virtualenv and pip deployment:
+include
+local
+pip-selfcheck.json
+share
+src
