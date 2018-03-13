@@ -1,12 +1,14 @@
 https://nightly.odoo.com/10.0/nightly/src/odoo_10.0.latest.zip
 
 # OCA/server-tools
-# to-do: remove this line on 08/03/18 
+# TODO: still not fixed after PR got merged, check
 -e git+https://github.com/OCA/server-tools.git@10.0#egg=odoo10_addon_base_cron_exclusion&subdirectory=setup/base_cron_exclusion
 
 # OCA/manufacture-reporting
--e git+https://github.com/Eficent/manufacture-reporting.git@10.0-mig-report_mrp_bom_matrix#egg=odoo10_addon_mrp_bom_matrix_report&subdirectory=setup/mrp_bom_matrix_report
-# -e git+https://github.com/Eficent/manufacture-reporting.git@10.0-mig-mrp_bom_current_stock#egg=odoo10_addon_mrp_bom_current_stock&subdirectory=setup/mrp_bom_current_stock
+odoo10-addon-mrp_bom_matrix_report
+
+# OCA/manufacture
+odoo10-addon-mrp_auto_assign
 
 # Eficent/ddmrp
 -e git+https://github.com/Eficent/ddmrp.git@10.0#egg=odoo10_addon_ddmrp&subdirectory=setup/ddmrp
